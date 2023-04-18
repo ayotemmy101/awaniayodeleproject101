@@ -42,3 +42,39 @@ nav img{
     text-decoration: none;
     font-size: 23px;
 }
+
+
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.8sec;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+
+.text-box{
+    width: 90%;
+    color:#fff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 69px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
