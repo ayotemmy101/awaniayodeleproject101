@@ -8,6 +8,10 @@
 
 body{
     font-family: Mukta;
+    background: url(../assets/images/pexels-photo-7130493\ \(1\).webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 nav{
@@ -109,10 +113,5 @@ nav #icon{
         height: calc(100vh - 80px);
 
     }
-}
-header{
-    background: url(../assets/images/pexels-photo-7130493\ \(1\).webp);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+
 }
