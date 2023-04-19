@@ -115,3 +115,16 @@ nav #icon{
     }
 
 }
+
+#swim-outer{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+#swim-image{
+    height: 350px;
+    width: 100%;
+    background: url('../assets/images/TheSwimStudioSlider2.jpg') no-repeat center center;
+    
+
+}
