@@ -63,7 +63,7 @@ nav #icon{
     display: none;
 }
 
-@media (max-width: 1048px){
+@media screen and  (max-width: 1048px){
     label.logo{
         font-size: 32px;
         padding-left: 60px;
@@ -78,7 +78,7 @@ nav #icon{
     }
 }
 
-@media (max-width: 909px){
+@media (max-width: 950px){
     nav #icon{
         display: block;
     }
@@ -199,6 +199,16 @@ nav #icon{
 }   
 }
 
+@media screen and (min-width: 1024px){
+
+.mvv-container {
+    clear:left;
+    float:left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+}
 
 footer{
     height: 150px;
